@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.[TU_CORO]" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>[TU CORO]</name>
+<widget id="com.phonegap.Coro9" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Coro9</name>
     <description>
-        Cancionero para celebraciones de [TU CORO]
+        Cancionero para celebraciones de Coro9 (demo)
     </description>
     <author email="" href="http://[---].org">
         XXXX YYYY
