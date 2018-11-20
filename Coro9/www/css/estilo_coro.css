@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9em;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+div {
+    border: 2px solid green; /* en desarrollo */
+    display: block;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 1px;
+}
+
+
+.titulo {
+    background-image: url('../images/header.jpg');
+    background-size: 950px 100px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    max-width: 950px;
+    height: 75px;
+    float: left;
+}
+
+.titulo img {
+
+    position: relative;
+    top: -5px;
+    left: -2px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 1px solid green;  en desarrollo */
+}
+
+.titulo h1 {
+    width: 60%;
+    line-height: 10px;
+    float: left;
+    margin-left: 5px;
+    border: 0px; /* en desarrollo */
+    color: orange;
+}
+
+
+.boton_menu {
+    position: relative;
+    right: -15px;
+    width: 40px;
+    background-color: orange;
+    margin: 1px;
+    border-style: none;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.blanco {
+    color: white;
+}
+
+
+.rojo_trans {
+    color: rgba(255,255,255,0);
+}
+
+
+.rojo {
+    color: red;
+}
+
+
+.footer {
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    font-size: 0.5em;
+}
+
+
+.botonera_dos {
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 80%;
+}
+
+.botonera_oculta {
+    display: none;
+}
+
+.botonera_dos p {
+    line-height: 15%;
+}
+
+.botones {
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+    width: 95%;
+    background-color: green;
+    padding: 5px 2px;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botones_oculto {
+    display: none;
+}
+
+.botones:hover {
+    background-color:rgba(254, 166, 17, 0);
+    color: black;
+}
+
+.botones:active {
+}
+
+.cinco {
+    padding-top: 80px;
+    min-height: 475px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+.cinco h3 {
+    margin: 5px auto;
+}
+
+.cinco h5 {
+    font-variant: small-caps;
+    margin: 0px auto;
+}
+
+
+.cinco pre {
+ /*   font-family: 'Roboto Mono', monospace;*/
+    width: 95%;
+    line-height: 130%;
+    }
+
+
+.cinco p {
+    display: block;
+    text-align: left;
+}
+
+p.acordes_on {
+    font-family: serif;
+    font-size: 0.9em;
+    color: Crimson;
+    margin: 0 auto;
+    letter-spacing: 0px;
+}
+
+p.acordes_off  {
+
+    display: none;
+}
+
+.letras {
+    margin: 0 auto;
+}
+
+.seis {
+    min-height: 180px;
+    width: 80%;
+}
+
+.instrucciones {
+    float: left;
+    width: 100%;
+}
+
+.instrucciones_oculta {
+    display: none;
+}
+
+
+.instrucciones_img {
+    text-align: left;
+    font-size: 80px;
+    color: green;
+    text-shadow:2px 2px 4px #000000;
+}
+
+.instrucciones_bloques {
+    height: 50px;
+    float: left;
+    display: inline-block;
+    margin: 5px auto;
+    width: 100%;
+}
+
+.instrucciones_bloques_txt {
+    position: relative;
+    top: -5px;
+}

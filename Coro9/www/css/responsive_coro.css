@@ -1,0 +1,51 @@
+@media (min-width: 900px) {
+
+/* ====== Al revés: añade CSS para PC, no para el movil ====== */
+
+body {
+    color: blue;
+    font-family: 'Inconsolata', monospace;
+}
+
+.titulo {
+    background-size: auto;
+}
+
+
+.cinco pre {
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.cinco p {
+    padding-left: 300px;
+}
+
+
+
+.letras {
+    font-size: 1em;
+}
+
+
+.instrucciones {
+    display: inline-block;
+    text-align: center;
+}
+
+.instrucciones_oculta {
+    display: none;
+}
+
+.instrucciones_bloques {
+    width: 20%;
+    height: 150px;
+}
+
+
+.instrucciones_bloques_txt {
+    position: relative;
+    top: 25px;
+}
+}
+

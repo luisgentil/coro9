@@ -1,0 +1,73 @@
+<!doctype html> 
+<html> 
+<head>
+<meta charset="utf-8"/> 
+<title>Coro 9</title>
+<link rel="stylesheet" type="text/css" href="css/estilo_coro.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive_coro.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Mono" rel="stylesheet"> 
+<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+<script src="resources/cancionesTocho.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBYwacj-LV0uNF-tNGVkA5C-_oKEj_9Uac",
+    authDomain: "coro-9-930.firebaseapp.com",
+    databaseURL: "https://coro-9-930.firebaseio.com",
+    projectId: "coro-9-930",
+    storageBucket: "coro-9-930.appspot.com",
+    messagingSenderId: "450333305764"
+  };
+  firebase.initializeApp(config);
+</script>
+<!--script type="text/javascript" src="cordova.js"></script-->
+    <script type="text/javascript" src="js/coro2.js" ></script>
+    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+</head>
+
+<body>
+<div id="cabecera" class="titulo">
+	<img class="titulo-logo" src="images/logo.png">
+  <h1>Coro 9</h1>
+  <button class="boton_menu" id="botonMenu"><i class="fa fa-navicon blanco"></i></button>
+  <button class="boton_menu" id="botonAcordes">
+    <span class="fa-stack">
+      <i class="fa fa-hashtag fa-stack-1x blanco"></i>
+      <i id="prohibido" class="fa fa-ban fa-stack-2x rojo_trans" ></i>
+    </span>
+  </button>  
+  <div id="botonera" class="botonera_dos botonera_oculta">
+  	<p></p>
+  	<!--button class="botones" id="botonAcordes">Acordes OFF</button-->
+    <button class="botones" id="entrada">Entrada</button>
+  	<button class="botones" id="perdon">Perdón</button>
+    <button class="botones" id="gloria">Gloria</button>
+    <button class="botones" id="antifona">Antífona</button>
+    <button class="botones" id="aleluya">Aleluya</button>
+    <button class="botones" id="ofertorio">Ofertorio</button>
+    <button class="botones" id="santo">Santo</button>
+    <button class="botones" id="padrenuestro">Padrenuestro</button>
+    <button class="botones" id="paz">Paz</button>
+    <button class="botones" id="comunion">Comunión</button>
+    <button class="botones" id="envio">Envío</button>
+    <button class="botones" id="maria">María</button>
+    <button class="botones" id="villancico">Villancico</button>
+    <button class="botones" id="extra">Extra</button>
+  </div>
+</div>
+<div class="cinco" id="activo">
+  <h5 id="fecha-evento">-</h5>
+  <h5 id="momento">Momento de la Celebración</h5>
+  <h3 id="titulo-canto">Título</h3>
+  <div id="instrucciones_div" class="instrucciones">Cómo usar la aplicación:<br>
+    <div class="instrucciones_bloques"><i class="fa fa-mobile fa-2x instrucciones_img"></i> <span class="instrucciones_bloques_txt">Toca para avanzar</span></div>
+    <div class="instrucciones_bloques"><i class="fa fa-arrows-h fa-2x instrucciones_img"></i> <span class="instrucciones_bloques_txt"> Anterior - Siguiente</span></div>
+    <div class="instrucciones_bloques"><i class="fa fa-feed fa-2x instrucciones_img" ></i> <span class="instrucciones_bloques_txt"> Presiona para reiniciar</span></div>
+    <div class="instrucciones_bloques"><i class="fa fa-navicon fa-2x instrucciones_img" ></i> <span class="instrucciones_bloques_txt"> Menú de cantos</span></div>
+    <div class="instrucciones_bloques"><i class="fa fa-hashtag fa-2x instrucciones_img"></i> <span class="instrucciones_bloques_txt"> Mostrar acordes</span></div>
+  </div>
+<pre id ="texto-canto"></pre>
+</div>
+<div class="footer">version: 1.0 </div>
+</body>

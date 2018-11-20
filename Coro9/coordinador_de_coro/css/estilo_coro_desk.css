@@ -1,0 +1,145 @@
+    /*version: 1.1 */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9em;
+  margin: 0 auto;
+}
+
+div {
+    width: 95%;
+    display: block;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+h3 {
+    width: 20%;
+    display: block;
+    float: left;
+}
+
+.titulo {
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-color: Linen;
+    background-position: center; 
+    top: 0px;
+    z-index: 10;
+    border: 2px solid green;
+    height: 75px; 
+    float: left;
+    margin-left: 5px;
+}
+
+.titulo img {
+
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 1px solid orange; /* en desarrollo */
+}
+
+.titulo h1 {
+    width: 90%;
+    line-height: 10px;
+    float: left;
+    margin-left: 5px;
+    color: orange;
+}
+
+.seccionesClase {
+    width: 75%;
+    float: left;
+    display: block;
+    border: 2px solid green;
+}
+
+.seccionesClase_oculta {
+    display: none;
+}
+
+.seccionesClase p {
+    margin: 2px;
+    width: 95%;
+    padding: 15px;
+    display: block;
+    float: left;
+    line-height: 15%;
+    cursor: copy;
+    border: 2px solid green; 
+}
+
+.seccionesClase p:hover {
+    background-color: orange;
+}
+
+.seleccionClase{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 25%;
+    float: left;
+    display: block;
+    border: 2px solid green;
+}
+
+.consultas {
+    border: 2px solid green;
+    background-color: Linen;
+}
+
+
+li {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+li:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.permisos {
+    color: green;
+    padding: 5px;
+}
+
+.peligro {
+    color: yellow;
+    background-color: red;
+    font-size: 1.25em;
+    border-color: yellow;
+    padding: 5px;
+}
+
+ a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: yellow;
+
+}
+
+a:active {
+    text-decoration: none;
+} 
